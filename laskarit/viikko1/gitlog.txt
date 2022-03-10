@@ -1,3 +1,4 @@
+github muutos
 nheikki@melkki:~/ot_viikko1/tiedostoja$ git log --stat | cat
 commit 9931e933ea7bd03dda6320cb3d1af841f45fe10c
 Author: Nenonen Heikki A <nheikki@melkki.cs.helsinki.fi>
