@@ -1,0 +1,96 @@
+nheikki@melkki:~/ot_viikko1/tiedostoja$ git log --stat | cat
+commit 9931e933ea7bd03dda6320cb3d1af841f45fe10c
+Author: Nenonen Heikki A <nheikki@melkki.cs.helsinki.fi>
+Date:   Thu Mar 10 22:33:09 2022 +0200
+
+    remove file1, new name file2 -> file22
+
+ tiedostoja/file2             | 0
+ tiedostoja/{file1 => file22} | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 335f82f65de03d4d31c5e0a6a2ae277a26fc422d
+Author: Nenonen Heikki A <nheikki@melkki.cs.helsinki.fi>
+Date:   Thu Mar 10 22:25:54 2022 +0200
+
+    luotu file1, file2, file3
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ tiedostoja/file3 | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit c8deccd8c26cf72eb59e286248bd9c13b2c16a5e
+Author: Nenonen Heikki A <nheikki@melkki.cs.helsinki.fi>
+Date:   Thu Mar 10 22:16:37 2022 +0200
+
+    muutoksia eka ja kolmas
+
+ eka.txt    | 2 ++
+ kolmas.txt | 3 ++-
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+
+commit 5c4c9010fc35281c6a89d392f899d1605fe04b41
+Author: Nenonen Heikki A <nheikki@melkki.cs.helsinki.fi>
+Date:   Thu Mar 10 22:14:31 2022 +0200
+
+    tiedosto.txt -> eka.txt
+
+ tiedosto.txt => eka.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit efce24ed45042c462e1bba5aafdebe004018c33f
+Author: Nenonen Heikki A <nheikki@melkki.cs.helsinki.fi>
+Date:   Thu Mar 10 22:12:52 2022 +0200
+
+    toinen.txt poistettu
+
+ toinen.txt | 6 ------
+ 1 file changed, 6 deletions(-)
+
+commit d7e2902ead67b9afaef435655c522cd9887212eb
+Author: Nenonen Heikki A <nheikki@melkki.cs.helsinki.fi>
+Date:   Thu Mar 10 21:45:42 2022 +0200
+
+    lisätty stuff kansio ja jotain
+
+ stuff/jokintiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 429de147e0e825df9722f54fab4e8f2e239dfc66
+Author: Nenonen Heikki A <nheikki@melkki.cs.helsinki.fi>
+Date:   Thu Mar 10 21:42:48 2022 +0200
+
+    muutoksia kolmas ja toinen
+
+ kolmas.txt | 5 +++++
+ toinen.txt | 6 ++++++
+ 2 files changed, 11 insertions(+)
+
+commit aeea583a940824f7d323dcefeedd4c5e324c90b5
+Author: Nenonen Heikki A <nheikki@melkki.cs.helsinki.fi>
+Date:   Thu Mar 10 21:41:13 2022 +0200
+
+    kolmas.txt lisätty
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 1e0a039d00f7e5c3f45364a8bc9ad6195d10c506
+Author: Nenonen Heikki A <nheikki@melkki.cs.helsinki.fi>
+Date:   Thu Mar 10 21:37:18 2022 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 3 +++
+ toinen.txt   | 0
+ 2 files changed, 3 insertions(+)
+
+commit 2a036b606caafa31f767602dd7c313e9ec9898c9
+Author: Nenonen Heikki A <nheikki@melkki.cs.helsinki.fi>
+Date:   Thu Mar 10 21:32:44 2022 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
