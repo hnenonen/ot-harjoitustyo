@@ -14,7 +14,7 @@ Perusversion tarjoama toiminnallisuus
 
 ## Käyttöliittymäluonnos
 
-![](./kayttoliittymaluonnos.pdf)
+![](./kayttoliittymaluonnos.png)
 
 ### Ennen kirjautumista
 
