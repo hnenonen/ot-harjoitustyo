@@ -6,23 +6,23 @@ Sovelluksen avulla käyttäjä voi laskea antamalleen funktiolle määräämäss
 Sovellusta on mahdollista käyttää useamman rekisteröityneen käyttäjän, jotka kaikki näkevät omat aiemmin ajamansa funktiot ja käyttämänsä parametrit.
 Näiden avulla on helppo regeneroida ajo uudelleen.
 
-##Käyttäjät
+## Käyttäjät
 
 Alkuvaiheessa sovelluksella on vain yksi käyttäjärooli, normaalikäyttäjä. Myöhemmin sovellukseen lisätään pääkäyttäjä, jolla on suuremmat oikeudet.
 
 Perusversion tarjoama toiminnallisuus
 
-##Käyttöliittymäluonnos
+## Käyttöliittymäluonnos
 
-![](./dokumentaatio/kayttoliittymaluonnos.pdf)
+![](./kayttoliittymaluonnos.pdf)
 
-*Ennen kirjautumista*
+### Ennen kirjautumista
 
 Käyttäjä voi luoda järjestelmään käyttäjätunnuksen, jolloin siirrytään näkymään 2.
 
 Käyttäjä voi kirjautua järjestelmään, jolloin siirrytään näkymään 3.
 
-*Kirjautumisen jälkeen*
+### Kirjautumisen jälkeen
 
 Käyttäjä näkee aiemmin tutkimansa funktiot ja parametrit sekä pari malliajoa
 
@@ -30,7 +30,7 @@ Käyttäjä voi generoida uuden funktion tutkimisen, jolloin siirrytään näkym
 
 Käyttäjä voi kirjautua ulos, jolloin siirrytään näkymään 1.
 
-*Tutkimuksen ajon jälkeen*
+### Tutkimuksen ajon jälkeen
 
 Käyttäjä näkee kuvaajan, jossa tutkittu funktio sekä sitä vastaan generoitu Taylor polynomi sekä käyttämänsä parametrit ja funktion ja polynomin virhe käsitellyssä pisteessä.
 
@@ -40,3 +40,11 @@ Käyttäjä voi kirjautua ulos, jolloin palataan näkymään 1.
 
 
 
+## Jatkokehitysideoita
+
+Perusversion jälkeen sovellusta täydennetään ajan salliessa mm. seuraavasti:
+
+- Luoda käyttäjälle raportti tutkimuksesta
+- Mahdollisuus dynaamisesti muuttaa tarkastelupistettä x
+- Mahdollisuus dynaamisesti muuttaa haluttua tarkkuutta
+- Numeerinen tapa derivoida / löytää funktion nollakohta, Newton menetelmä

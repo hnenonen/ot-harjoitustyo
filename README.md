@@ -4,14 +4,14 @@ Viikko1:
 
 [viikko1: komentorivi](https://github.com/hnenonen/ot-harjoitustyo/blob/master/laskarit/viikko1/komentorivi.txt)
 
+Viikko2:
+
+[viikko2: testikattavuus](https://github.com/hnenonen/ot-harjoitustyo/blob/master/laskarit/viikko2/testcoverage.png)
 
 **Ohjelmistotekniikan harjoitustyö**
 
-Tämän kurssin aikana tehdään ohjelma.
-Ensimmäiset 1-3 viikkoa tehdään harjoittavia tehtäviä.
-Erityisesti ensimmäisellä viikolla treenataan Git käyttöä.
+[vaatimusmäärittely](https://github.com/hnenonen/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
 
-*Ohjelma voi olla peli tai hyötyohjelma*
+[työaikakirjanpito](https://github.com/hnenonen/ot-harjoitustyo/blob/master/dokumentaatio/tyoaikakirjanpito.md)
 
 
-paikallinen muutos
