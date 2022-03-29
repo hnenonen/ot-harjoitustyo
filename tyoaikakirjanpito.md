@@ -1,5 +1,5 @@
-#Työaikakirjanpito
+# Työaikakirjanpito
 
-| päivä | aika/h | mitä tein |
-|:.....:|:.......|:..........|
-| 29.3  |   1	 | määrittelyvaatimusten luonnostelu |
+| päivä | aika | mitä tein  |
+| :----:|:-----| :-----|
+| 29.3. | 1    | vaatimusmäärittelyä |
