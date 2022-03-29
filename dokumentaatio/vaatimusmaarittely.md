@@ -10,9 +10,8 @@ Näiden avulla on helppo regeneroida ajo uudelleen.
 
 Alkuvaiheessa sovelluksella on vain yksi käyttäjärooli, normaalikäyttäjä. Myöhemmin sovellukseen lisätään pääkäyttäjä, jolla on suuremmat oikeudet.
 
-Perusversion tarjoama toiminnallisuus
 
-## Käyttöliittymäluonnos
+## Käyttöliittymäluonnos ja perusversion toiminnallisuus
 
 ![](./kayttoliittymaluonnos.png)
 
