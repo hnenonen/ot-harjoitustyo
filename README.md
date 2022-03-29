@@ -1,8 +1,8 @@
 Viikko1:
 
-https://github.com/hnenonen/ot-harjoitustyo/blob/master/laskarit/viikko1/gitlog.txt
+[viikko1: gitlog](https://github.com/hnenonen/ot-harjoitustyo/blob/master/laskarit/viikko1/gitlog.txt)
 
-https://github.com/hnenonen/ot-harjoitustyo/blob/master/laskarit/viikko1/komentorivi.txt
+[viikko1: komentorivi](https://github.com/hnenonen/ot-harjoitustyo/blob/master/laskarit/viikko1/komentorivi.txt)
 
 
 **Ohjelmistotekniikan harjoitustyö**
