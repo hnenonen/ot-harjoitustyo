@@ -12,13 +12,17 @@ Alkuvaiheessa sovelluksella on vain yksi käyttäjärooli, normaalikäyttäjä. 
 
 Perusversion tarjoama toiminnallisuus
 
-###Ennen kirjautumista
+##Käyttöliittymäluonnos
+
+![](./dokumentaatio/kayttoliittymaluonnos.pdf)
+
+*Ennen kirjautumista*
 
 Käyttäjä voi luoda järjestelmään käyttäjätunnuksen, jolloin siirrytään näkymään 2.
 
 Käyttäjä voi kirjautua järjestelmään, jolloin siirrytään näkymään 3.
 
-###Kirjautumisen jälkeen
+*Kirjautumisen jälkeen*
 
 Käyttäjä näkee aiemmin tutkimansa funktiot ja parametrit sekä pari malliajoa
 
@@ -26,7 +30,7 @@ Käyttäjä voi generoida uuden funktion tutkimisen, jolloin siirrytään näkym
 
 Käyttäjä voi kirjautua ulos, jolloin siirrytään näkymään 1.
 
-###Tutkimuksen ajon jälkeen
+*Tutkimuksen ajon jälkeen*
 
 Käyttäjä näkee kuvaajan, jossa tutkittu funktio sekä sitä vastaan generoitu Taylor polynomi sekä käyttämänsä parametrit ja funktion ja polynomin virhe käsitellyssä pisteessä.
 
