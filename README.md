@@ -31,11 +31,11 @@ Sovelluksen toimnta on testattu Python-versiolla 3.8. Muiden versioiden toimivuu
 ## Dokumentaatio
 
 - [Käyttöohje] tulossa
-- [Vaatimusmäärittely](https://github.com/hnenonen/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
+- [Vaatimusmäärittely](https://github.com/hnenonen/ot-harjoitustyo/blob/master/python-math-plot/dokumentaatio/vaatimusmaarittely.md)
 - [Arkkitehtuurikuvaus] tulossa
 - [Testausdokumentti] tulossa
-- [Työaikakirjanpito](https://github.com/hnenonen/ot-harjoitustyo/blob/master/dokumentaatio/tyoaikakirjanpito.md)
-- [Changelog](https://github.com/hnenonen/ot-harjoitustyo/blob/master/dokumentaatio/changelog.md)
+- [Työaikakirjanpito](https://github.com/hnenonen/ot-harjoitustyo/blob/master/python-math-plot/dokumentaatio/tyoaikakirjanpito.md)
+- [Changelog](https://github.com/hnenonen/ot-harjoitustyo/blob/master/python-math-plot/dokumentaatio/changelog.md)
 
 ## Asennus
 
