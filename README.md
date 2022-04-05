@@ -38,20 +38,17 @@ Sovelluksen toimnta on testattu Python-versiolla 3.8. Muiden versioiden toimivuu
 - [Changelog](https://github.com/hnenonen/ot-harjoitustyo/blob/master/python-math-plot/dokumentaatio/changelog.md)
 
 ## Asennus
+Koneella täytyy olla poetry asennettuna, muuten poetry install ei toimi. 
+Tämä selviää komentoriviltä kysymällä poetry --version, jos poetry löytyy voit siirtyä kohtaan 1.
+Muuten asenna poetry, ohjeet löytyvät mm. [täältä](https://ohjelmistotekniikka-hy.github.io/python/viikko2) kohdasta "Asennus".
 
 1. Tarvittavien riippuvuuksien asentamien:
 
 ```bash
 poetry install
-```
+`````
 
-2. Invoke suorittaa vaadittavat alustustoimenpiteet:
-
-```bash
-poetry run invoke build
-```
-
-3. Nyt ohjelma käynnistyy seuraavasti:
+2. Nyt ohjelma käynnistyy seuraavasti:
 
 ```bash
 poetry run invoke start
