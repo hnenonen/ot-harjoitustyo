@@ -1,23 +1,3 @@
-Viikko1:
-
-[viikko1: gitlog](https://github.com/hnenonen/ot-harjoitustyo/blob/master/laskarit/viikko1/gitlog.txt)
-
-[viikko1: komentorivi](https://github.com/hnenonen/ot-harjoitustyo/blob/master/laskarit/viikko1/komentorivi.txt)
-
-Viikko2:
-
-[viikko2: testikattavuus](https://github.com/hnenonen/ot-harjoitustyo/blob/master/laskarit/viikko2/testcoverage.png)
-
-**Ohjelmistotekniikan harjoitustyö**
-
-[vaatimusmäärittely](https://github.com/hnenonen/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
-
-[työaikakirjanpito](https://github.com/hnenonen/ot-harjoitustyo/blob/master/dokumentaatio/tyoaikakirjanpito.md)
-
-Viikko3:
-x
-x
-
 # TaylorApp
 
 Sovelluksen avulla käyttäjän on mahdollista luoda haluamastaan funktiosta approksimaatio Taylor-polynomilla sekä piirtää kuvaaja, jossa molemmat on esitetty suhteessa toisiinsa.
