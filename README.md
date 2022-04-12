@@ -12,7 +12,7 @@ Sovelluksen toimnta on testattu Python-versiolla 3.8. Muiden versioiden toimivuu
 
 - [Käyttöohje] tulossa
 - [Vaatimusmäärittely](https://github.com/hnenonen/ot-harjoitustyo/blob/master/python-math-plot/dokumentaatio/vaatimusmaarittely.md)
-- [Arkkitehtuurikuvaus] tulossa
+- [Arkkitehtuurikuvaus](https://github.com/hnenonen/ot-harjoitustyo/blob/master/python-math-plot/dokumentaatio/arkkitehtuuri.md)
 - [Testausdokumentti] tulossa
 - [Työaikakirjanpito](https://github.com/hnenonen/ot-harjoitustyo/blob/master/python-math-plot/dokumentaatio/tyoaikakirjanpito.md)
 - [Changelog](https://github.com/hnenonen/ot-harjoitustyo/blob/master/python-math-plot/dokumentaatio/changelog.md)
@@ -48,10 +48,17 @@ poetry run invoke start
 poetry run invoke test
 ```
 
-### 2. Testikattavuus raportin generointi
+### 3. Testikattavuus raportin generointi
 
 ```bash
 poetry run invoke coverage-report
 ```
 
 Raportti löytyy nyt _htmlcov_-hakemistosta.
+
+### 4. Koodin laadun tarkastus pylintillä
+
+```bash
+poetry run invoke lint
+```
+
