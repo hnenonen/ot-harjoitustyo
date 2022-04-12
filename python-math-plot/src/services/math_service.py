@@ -1,46 +1,35 @@
-from sympy import *
-import matplotlib.pyplot as plt
+from sympy import sympify, Symbol, factorial
+
 
 class Approximate:
 
-    def define(self, s):
-        #s = input("enter a formula: ")
-        #s =  "cos(x)"
-        # "(x-1)**6"
-        # enter a formula: sin(x) + x**3
-        #'sin(x) + x**3'
-        y = sympify(s)
-        #x = Symbol('x')
-        #self.taylor(y, x)            #calculate taylor polynomial
-        #print(y)
-        return y
+    def define(self, input_func):
+        func = sympify(input_func)
+        return func
 
-    def taylor(self, y):
-        x = Symbol('x')
-        func = y
+    def taylor(self, func):
+        respect_to_x = Symbol('x')
         list = []
-        list.append(y)
-        exprs = []
+        list.append(func)
+        expressions = []
+        degree_accuracy = 6
+        counter = 0
 
-        n = 6
-        i = 0
-        while i < n:
-            y = y.diff(x)
-            a = y.subs(x, 0)
-            exprs.append(a)
-            list.append(y)
-            i += 1
-        f = str(func.subs(x, 0))
+        while counter < degree_accuracy:
+            func = func.diff(respect_to_x)
+            const_0 = func.subs(respect_to_x, 0)
+            expressions.append(const_0)
+            list.append(func)
+            counter += 1
+        taylor_f = str(func.subs(respect_to_x, 0))
         constants = []
-        for j in range(1, n):
-            con = exprs[j] / factorial(j)
+
+        for j in range(1, degree_accuracy):
+            con = expressions[j] / factorial(j)
             if con > 0:
                 constants.append(con)
-                f += "+"
-                f += "("+str(con)+"*x**"+str(j)+")"
-        t = sympify(f)
-        #self.plotting(func, t)           #calculate taylor polynomial and function
-        #print(t)
-        return t
-
-    
+                taylor_f += "+"
+                taylor_f += "("+str(con)+"*x**"+str(j)+")"
+        taylor_approx = sympify(taylor_f)
+        
+        return taylor_approx

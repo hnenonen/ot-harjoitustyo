@@ -1,14 +1,15 @@
-import tkinter as tk
-from ui.math_view import MathView
+from tkinter import Tk
+from ui.ui import UI
 
-math_window = MathView()
+def main():
+    window = Tk()
+    window.title('TaylorApp')
 
-root =  tk.Tk()
+    ui_view = UI(window)
+    ui_view.start()
 
-math_window.mathview_create(root)
-
-root.mainloop()
+    window.mainloop()
 
 
 if __name__ == '__main__':
-    main()
+    main()  

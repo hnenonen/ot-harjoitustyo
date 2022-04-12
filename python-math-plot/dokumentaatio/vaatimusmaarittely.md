@@ -19,19 +19,19 @@ Alkuvaiheessa sovelluksella on vain yksi käyttäjärooli, normaalikäyttäjä. 
 
 Käyttäjä voi luoda järjestelmään käyttäjätunnuksen, jolloin siirrytään näkymään 2.
 
-Käyttäjä voi kirjautua järjestelmään, jolloin siirrytään näkymään 3.
+Käyttäjä voi kirjautua järjestelmään, jolloin siirrytään näkymään 3. [login_view luotu]
 
 ### Kirjautumisen jälkeen
 
 Käyttäjä näkee aiemmin tutkimansa funktiot ja parametrit sekä pari malliajoa
 
-Käyttäjä voi generoida uuden funktion tutkimisen, jolloin siirrytään näkymään 4.
+Käyttäjä voi generoida uuden funktion tutkimisen, jolloin siirrytään näkymään 4. [math_view luotu ja toiminnallisuus]
 
 Käyttäjä voi kirjautua ulos, jolloin siirrytään näkymään 1.
 
 ### Tutkimuksen ajon jälkeen
 
-Käyttäjä näkee kuvaajan, jossa tutkittu funktio sekä sitä vastaan generoitu Taylor polynomi sekä käyttämänsä parametrit ja funktion ja polynomin virhe käsitellyssä pisteessä.
+Käyttäjä näkee kuvaajan, jossa tutkittu funktio sekä sitä vastaan generoitu Taylor polynomi sekä käyttämänsä parametrit ja funktion ja polynomin virhe käsitellyssä pisteessä. [plotting metodi, ei oma näkymänsä vaan tekee pop up]
 
 Käyttäjä voi ajaa uuden tutkimuksen, jolloin palataan näkymään 3.
 

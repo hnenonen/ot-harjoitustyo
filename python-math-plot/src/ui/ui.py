@@ -1,11 +1,35 @@
-from sympy import *
-import matplotlib.pyplot as plt
+from ui.login_view import LoginView
+from ui.math_view import MathView
+
+class UI:
+    def __init__(self, root):   
+        self._root = root
+        self._current_view = None
+
+    def start(self):
+        self._show_login_view()
+
+    def _hide_current_view(self):
+        if self._current_view:
+            self._current_view.destroy()
+
+        self._current_view = None
 
 
-class UIPlot:
+    def _handle_math_view(self):
+        self._hide_current_view()
+        self._current_view = MathView(
+            self._root)
 
-    def plotting(self, func, t):
-        graph = plot(t, func, title="Taylor polynomial approximation", legend=True, show=False, xlabel='x')
-        graph[0].line_color = 'b'
-        graph[1].line_color = 'r'
-        graph.show()
+        self._current_view.pack()
+
+    def _show_login_view(self):
+        self._hide_current_view()
+
+        self._current_view = LoginView(
+            self._root,
+            self._handle_math_view
+        )
+
+        self._current_view.pack()
+
