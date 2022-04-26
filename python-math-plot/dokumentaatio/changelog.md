@@ -22,6 +22,7 @@ tests  | math_service_test.py
 - Arkkitehtuuri.md dokumentti aloitettu
 - pylint invoke lisätty, muut toimivat jo viime viikolla - koodin laatu yli 9/10
 
+
 Rakenne:
 
 index.py
@@ -30,3 +31,16 @@ services | math_service.py
 ui       | ui.py, login_view.py, math_view.py
 tests    | math_service_test.py
 
+## Viikko 5 
+- virheellisten syötteiden käsittely funktiota syötettäessä
+- näkymiä ja koodia siistitty
+- sekvenssikaavio luotu
+- ensimmäinen release
+
+Rakenne:
+
+index.py
+--src---
+services | math_service.py
+ui       | ui.py, login_view.py, math_view.py
+tests    | math_service_test.py

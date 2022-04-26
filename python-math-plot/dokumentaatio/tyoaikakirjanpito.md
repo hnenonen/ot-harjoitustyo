@@ -15,5 +15,9 @@
 | 10.4  | 4    | useamman näkymän lisääminen ja vaihtelu tkinterillä
 | 11.4	| 4    | näkyminen toimintaan saaminen ja ui keksittäminen ui.py alle
 | 12.4  | 3    | dokumentaatio, arkkitehtuuri.md alustaminen
-|:-----:|:-----|:-----|
-| sum	| 46,5 |
+| 17.4  | 4    | virheen käsittely syötteessä
+| 20.4  | 2    | sekvenssikaavio arkkitehtuuri.md
+| 23.4  | 5    | tietokantaharjoittelua
+| 25.4  | 3    | login ikkuna
+| 26.4  | 2    | dokumentaatio, git release
+| sum	| 62,5 |

@@ -41,4 +41,5 @@ class MathView:
 
         func = app.define(input)
         taylor = app.taylor(func)
+
         plot.plotting(func, taylor)

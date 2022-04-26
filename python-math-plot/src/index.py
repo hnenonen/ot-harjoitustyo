@@ -3,6 +3,8 @@ from ui.ui import UI
 
 def main():
     window = Tk()
+
+    window.geometry("500x200")
     window.title('TaylorApp')
 
     ui_view = UI(window)

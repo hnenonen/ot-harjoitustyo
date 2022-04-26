@@ -26,11 +26,11 @@ Olio Ui_plot huolehtii luotujen funktioiden graafisesta esityksestä metodille:
 
 ## Päätoiminnallisuudet
 
-Tällä hetkellä toiminnallisuus on
+Tällä hetkellä oleva toiminnallisuus on esitetty seuraavassa sekvenssikaaviossa:
 
-aloitusikkuna --näkymän vaihtaminen--> matematiikkaikkuna --toiminnallisuus--> graafinen esitys
+![](./sekvenssikaavio.png)
+
 
 Seuraavaksi luodaan tietokanta, jolla pidetään muistissa käyttäjät ja heidän tutkimansa funktiot.
-
 
 
