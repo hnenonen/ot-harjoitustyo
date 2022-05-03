@@ -17,7 +17,7 @@ Alkuvaiheessa sovelluksella on vain yksi käyttäjärooli, normaalikäyttäjä. 
 
 ### Ennen kirjautumista
 
-Käyttäjä voi luoda järjestelmään käyttäjätunnuksen, jolloin siirrytään näkymään 2.
+Käyttäjä voi luoda järjestelmään käyttäjätunnuksen, jolloin siirrytään näkymään 2.[create_view luotu]
 
 Käyttäjä voi kirjautua järjestelmään, jolloin siirrytään näkymään 3. [login_view luotu]
 

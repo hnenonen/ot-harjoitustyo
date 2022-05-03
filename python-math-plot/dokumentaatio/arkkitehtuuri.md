@@ -1,5 +1,12 @@
 # Arkkitehtuurikuvaus
 
+Ohjelma noudattaa pakkauskaaviota
+
+![](./pakkauskaavio.png)
+
+Näistä Repositoriota ja Entityä ei ole vielä toteuttu, koska tietokanta puuttuu.
+
+
 ## Sovelluslogiikka
 
 Tietomallin, jota ei ole vielä toteutettu muodostavat User ja Functions.

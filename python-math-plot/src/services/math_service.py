@@ -1,13 +1,32 @@
 from sympy import sympify, Symbol, factorial
 
-
 class Approximate:
 
+    """Class, that takes user input function and appromixates a Taylor polynom based on it.
+    """
+    
     def define(self, input_func):
+
+        """Prepares user input string into a function for sympify to use
+        Args: 
+            input_func: function to be approximated from user as a String
+        Returns:
+            func: function to be approximated as a Sympify function
+        """
+
         func = sympify(input_func)
         return func
 
     def taylor(self, func):
+
+        """Takes a function and creates a taylor polynom of 5th degree 
+            by calculating the fifth derivative of the function.
+        Args:
+            func: Sympified function from user
+        Returns:
+            taylor_approx: Sympified taylor polynom created by the method
+        """
+
         respect_to_x = Symbol('x')
         list = []
         list.append(func)

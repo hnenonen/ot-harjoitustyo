@@ -44,3 +44,13 @@ index.py
 services | math_service.py
 ui       | ui.py, login_view.py, math_view.py
 tests    | math_service_test.py
+
+
+## Viikko 6
+- koko kurssin vaivannut virheilmoitus terminaalissa ohjelmaa käytettäessä ratkaistu (palaute ohjaaja ja vertais)
+- Luotu uusi näkymä CreateView, osa login kokonaisuutta, tietokantaa ei ole vielä
+- Luotu Docstringit seuraaviin luokkiin
+	- UI, CreateView, Approximate, UIPlot
+	- puuttuu: LoginView, MathView
+- Korkean tason sovelluslogiikka lisätty arkkitehtuurikuvaukseen
+

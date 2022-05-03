@@ -7,9 +7,9 @@ app = Approximate()
 
 
 class MathView:
+    
     def __init__(self, root):
         self._root = root
-        #self.handle_login_view = handle_login_view
         self._frame = None
 
         self._initialize()  
@@ -27,9 +27,6 @@ class MathView:
         my_button = ttk.Button(text="graph it!",
                                 command=self.handle_button_click)
         my_button.pack()
-
-    def pack(self):
-        self._frame.pack()
 
     def destroy(self):
         self._frame.destroy()

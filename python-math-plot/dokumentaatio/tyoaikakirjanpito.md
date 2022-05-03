@@ -20,4 +20,7 @@
 | 23.4  | 5    | tietokantaharjoittelua
 | 25.4  | 3    | login ikkuna
 | 26.4  | 2    | dokumentaatio, git release
-| sum	| 62,5 |
+| 28.4  | 5    | tietokantaa
+| 30.4  | 2.5  | dokumentaatio
+| 03.5  | 8    | CreateView luominen, error poistaminen UI ajamisesta, dokumentaatio
+| sum	| 78   |
