@@ -10,10 +10,10 @@ Sovelluksen toimnta on testattu Python-versiolla 3.8. Muiden versioiden toimivuu
 
 ## Dokumentaatio
 
-- [Käyttöohje] tulossa
+- [Käyttöohje](https://github.com/hnenonen/ot-harjoitustyo/blob/master/python-math-plot/dokumentaatio/kayttoohje.md)
 - [Vaatimusmäärittely](https://github.com/hnenonen/ot-harjoitustyo/blob/master/python-math-plot/dokumentaatio/vaatimusmaarittely.md)
 - [Arkkitehtuurikuvaus](https://github.com/hnenonen/ot-harjoitustyo/blob/master/python-math-plot/dokumentaatio/arkkitehtuuri.md)
-- [Testausdokumentti] tulossa
+- [Testausdokumentti](https://github.com/hnenonen/ot-harjoitustyo/blob/master/python-math-plot/dokumentaatio/testidokumentaatio.md)
 - [Työaikakirjanpito](https://github.com/hnenonen/ot-harjoitustyo/blob/master/python-math-plot/dokumentaatio/tyoaikakirjanpito.md)
 - [Changelog](https://github.com/hnenonen/ot-harjoitustyo/blob/master/python-math-plot/dokumentaatio/changelog.md)
 
