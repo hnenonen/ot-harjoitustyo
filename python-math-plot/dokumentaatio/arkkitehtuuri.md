@@ -2,28 +2,13 @@
 
 Ohjelma noudattaa pakkauskaaviota
 
-![](./pakkauskaavio.png)
+![](./pakkauskaavio_todellinen.png)
 
-Näistä Repositoriota ja Entityä ei ole vielä toteuttu, koska tietokanta puuttuu.
+Repositoriota ja Entityä ei ole vielä toteuttu normaaliin pakkauskaavio rakenteeseen, koska tietokanta puuttuu.
 
 
 ## Sovelluslogiikka
 
-Tietomallin, jota ei ole vielä toteutettu muodostavat User ja Functions.
-
-
-```mermaid
- classDiagram
-      Functions "*" --> "1" User
-      class User{
-          username
-      }
-      class Functions{
-          id
-          function
-	  taylor	
-      }
-```
 Toiminnallisuuksista vastaa olio Math_Service. Luokka tarjoaa toiminnoille metodit:
 - define(function)
 - taylor(function
@@ -38,6 +23,26 @@ Tällä hetkellä oleva toiminnallisuus on esitetty seuraavassa sekvenssikaavios
 ![](./sekvenssikaavio.png)
 
 
+## Tulevat ominaisuudet
+
 Seuraavaksi luodaan tietokanta, jolla pidetään muistissa käyttäjät ja heidän tutkimansa funktiot.
+
+Tietomallin, jota ei ole vielä toteutettu muodostavat User ja Functions.
+
+
+```mermaid
+ classDiagram
+      Functions "*" --> "1" User
+      class User{
+          username
+      }
+      class Functions{
+          id
+          function
+          taylor
+      }
+```
+Tällöin pakkauskaavio noudattaa seuraavaa:
+![](./pakkauskaavio_todellinen.png)
 
 

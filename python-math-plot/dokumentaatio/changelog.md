@@ -54,3 +54,9 @@ tests    | math_service_test.py
 	- puuttuu: LoginView, MathView
 - Korkean tason sovelluslogiikka lisätty arkkitehtuurikuvaukseen
 
+## Viikko 7
+- Ei enää uutta toiminnallisuutta
+- Luotu testidokumentaatio.md ja kayttohje.md
+- Päivitetty maarittelydokumentti.md vastaamaan nykyistä tilannetta
+- Päivitetty arkkitehtuuri.md
+- Luotu uusi release

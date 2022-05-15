@@ -23,4 +23,7 @@
 | 28.4  | 5    | tietokantaa
 | 30.4  | 2.5  | dokumentaatio
 | 03.5  | 8    | CreateView luominen, error poistaminen UI ajamisesta, dokumentaatio
-| sum	| 78   |
+| 10.5  | 1.5  | testidokumentaatio
+| 13.5  | 1.5  | vaatimusmäärittely
+| 15.5	| 5    | loppudokumentaatio ja release
+| sum	| 86   |

@@ -3,47 +3,46 @@
 ## Sovelluksen tarkoitus
 
 Sovelluksen avulla käyttäjä voi laskea antamalleen funktiolle määräämässään pisteessä approksimoivan Taylor polynomin.
-Sovellusta on mahdollista käyttää useamman rekisteröityneen käyttäjän, jotka kaikki näkevät omat aiemmin ajamansa funktiot ja käyttämänsä parametrit.
-Näiden avulla on helppo regeneroida ajo uudelleen.
 
 ## Käyttäjät
 
-Alkuvaiheessa sovelluksella on vain yksi käyttäjärooli, normaalikäyttäjä. Myöhemmin sovellukseen lisätään pääkäyttäjä, jolla on suuremmat oikeudet.
+Ei ole eriteltyjä käyttäjiä. Kaikilla samat oikeudet.
 
 
 ## Käyttöliittymäluonnos ja perusversion toiminnallisuus
 
-![](./kayttoliittymaluonnos.png)
+![](./kayttoliittymaluonnos_todellinen.png)
 
 ### Ennen kirjautumista
 
-Käyttäjä voi luoda järjestelmään käyttäjätunnuksen, jolloin siirrytään näkymään 2.[create_view luotu]
+Käyttäjä aloittaa näkymästä 1., jossa valittava "Login" tai "Create user".
+Ohjelmaa pääsee käyttämään valitsemalla "Login".
 
-Käyttäjä voi kirjautua järjestelmään, jolloin siirrytään näkymään 3. [login_view luotu]
+Ns. rekisteröinti näkymään pääse painamalla "Create User".(näkymä 2).
+
+Ohjelmassa ei ole tietokantaa, joten käyttäjän tietoja ei tallenneta mihinkään.
+"username" ja "password" kenttiin ei siis tarvitse siis syöttää mitään.
 
 ### Kirjautumisen jälkeen
 
-Käyttäjä näkee aiemmin tutkimansa funktiot ja parametrit sekä pari malliajoa
-
-Käyttäjä voi generoida uuden funktion tutkimisen, jolloin siirrytään näkymään 4. [math_view luotu ja toiminnallisuus]
-
-Käyttäjä voi kirjautua ulos, jolloin siirrytään näkymään 1.
+Käyttäjä voi generoida uuden funktion tutkimisen syöttämällä haluamansa funktion ja painamalla "graph it!". (näkymä 3)
 
 ### Tutkimuksen ajon jälkeen
 
-Käyttäjä näkee kuvaajan, jossa tutkittu funktio sekä sitä vastaan generoitu Taylor polynomi sekä käyttämänsä parametrit ja funktion ja polynomin virhe käsitellyssä pisteessä. [plotting metodi, ei oma näkymänsä vaan tekee pop up]
+Käyttäjä näkee kuvaajan, jossa tutkittu funktio sekä sitä vastaan generoitu Taylor polynomi. (näkymä4)
 
-Käyttäjä voi ajaa uuden tutkimuksen, jolloin palataan näkymään 3.
-
-Käyttäjä voi kirjautua ulos, jolloin palataan näkymään 1.
-
+Käyttäjä voi ajaa uuden tutkimuksen edelleen näkyvillä olevasta näkymästä 3 ja painamalla "graph it!", jolloin kuvaaja päivittyy.
 
 
 ## Jatkokehitysideoita
 
 Perusversion jälkeen sovellusta täydennetään ajan salliessa mm. seuraavasti:
 
+- Luoda tietokanta, johon voidaan tallettaa useita eri käyttäjiä ja heidän tekemät taylor approksimaatiot
+- Toteuttaa funktion plottaus niin, että uuden ikkunan sijasta se päivittyy olemassa olevaan ikkunaan.
 - Luoda käyttäjälle raportti tutkimuksesta
 - Mahdollisuus dynaamisesti muuttaa tarkastelupistettä x
 - Mahdollisuus dynaamisesti muuttaa haluttua tarkkuutta
 - Numeerinen tapa derivoida / löytää funktion nollakohta, Newton menetelmä
+
+kts. esimerkiksi: ![](./kayttoliittymaluonnos.png)
